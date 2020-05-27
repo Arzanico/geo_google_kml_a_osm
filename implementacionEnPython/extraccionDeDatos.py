@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import sqlite3 as sql
-import funciones
-import crud
+from .funciones import funciones, crud
 
 
 # Apertura y lectura del archivo KML importado de Google Maps
